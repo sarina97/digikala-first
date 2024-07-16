@@ -1,0 +1,223 @@
+.amazing {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazing__center {
+  padding: 20px 2px;
+  background-color: #ef3a4e;
+  border-radius: 1rem;
+
+  .swiper {
+    width: 1340px;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: 260px !important;
+    width: 180px !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+  }
+
+  .swiper-slide img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.active {
+  background-color: #ef3a4e !important;
+  width: 100%;
+}
+
+.swiper-slide-item {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+
+  a {
+    /* display: inline-block; */
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    svg {
+      margin-bottom: 0.3rem;
+    }
+  }
+}
+.box {
+  width: 77px !important;
+}
+.offer_price {
+  width: 32px !important ;
+  background-color: #d32f2f;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  color: white;
+  margin-left: 1rem;
+  padding: 0.1rem 4px;
+  font-size: 13px;
+  font-family: var(--Bnazanin);
+  font-weight: bold;
+}
+
+.swiper-slide-product {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.swiper-slide-product img {
+  width: 150px !important;
+}
+
+.swiper-slide-product .price {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 150px !important;
+  height: 34px !important;
+
+  .new-price {
+    span {
+      font-weight: bold;
+      font-family: var(--Bnazanin);
+    }
+    font-weight: bold;
+    font-family: var(--Bnazanin);
+  }
+
+  img {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+.new_price{
+  span {
+    font-weight: bold;
+    font-family: var(--Bnazanin);
+  }
+}
+
+.border-rtr {
+  border-radius: 0 15px 15px 0;
+}
+.border-ltl {
+  border-radius: 15px 0 0 15px;
+}
+
+.old-price {
+  font-family: var(--Bnazanin);
+  font-size: 0.9rem;
+  color: rgb(138, 138, 138);
+  text-decoration: line-through;
+}
+
+/* amazing market */
+.amazing_offer_supermarket {
+  width: 100%;
+  height: 110px;
+  padding-inline:2.4rem ;
+
+  .amazing_offer_supermarket__content {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebeeed;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+  }
+  .amazing_offer_supermarket__content_right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      background-color: #039a4a;
+      border-radius: 9999px;
+      padding: 2px 12px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      span {
+        font-family: var(--Bnazanin);
+        padding: 0 2px;
+      }
+    }
+  }
+
+  .amazing_offer_supermarket__content_left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1.2rem;
+
+    .amazing_offer_supermarket__content_left_product {
+      a {
+        text-decoration: none;
+        position: relative;
+        .offer_price {
+          position: absolute;
+          z-index: 2;
+          right: 0;
+          bottom: 0;
+        }
+      }
+      img {
+        position: relative;
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: white;
+        padding: 0.4rem;
+      }
+    }
+
+    .number_products {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background-color: white;
+      border-radius: 9999px;
+      padding: 12px 20px;
+
+      a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #039a4a;
+        font-weight: bold;
+        span {
+          font-family: var(--Bnazanin);
+          padding: 0 0.2rem;
+        }
+      }
+
+      img {
+        width: 20px !important;
+        height: 20px !important;
+      }
+    }
+  }
+}

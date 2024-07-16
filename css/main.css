@@ -1,0 +1,23 @@
+@import "./partial/setting.css";
+/*or url*/
+@import "./partial/header.css";
+@import "./partial/story.css";   
+@import "./partial/slider.css";
+@import "./partial/icons.css";
+@import "./partial/amazing.css";
+@import "./partial/buy_rank.css";
+@import "./partial/categories_digital.css";
+@import "./partial/ads-link.css";
+@import "./partial/high-chosen.css";
+@import "./partial/fav_brand.css";
+@import "./footer.css";
+@import url(./partial/high-sell.css);
+
+@import url(./login.css);
+/* incredible  */
+@import "./incredible-offer/setting.css";
+@import "./incredible-offer/amazing-offer.css";
+@import "./incredible-offer/categories-story.css";
+@import "./incredible-offer/finish-offer.css";
+@import "./incredible-offer/tomorrow-offer.css";
+@import "./incredible-offer/all-amazing.css";

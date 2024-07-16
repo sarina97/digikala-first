@@ -1,0 +1,77 @@
+:root {
+  --iranYekan: "IranYekan";
+  --Bnazanin: "Bnazanin";
+  --main-gray: rgb(99, 98, 98);
+  --main-red:#ef3a4e;
+  --main-blue:#1abfd3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--iranYekan);
+  /* scroll-behavior: smooth; */
+}
+.wrapper {
+  position: relative;
+  /* top: 2200px; */
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  gap: 1.2rem;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url(../../font/fa/IRANYekanWeb.eot);
+  src: url(../../font/fa/IRANYekanWeb.ttf);
+  src: url(../../font/fa/IRANYekanWeb.woff);
+  src: url(../../font/fa/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: Bnazanin;
+  /* src: url(../../font/fa/Lalezar-Regular.otf); */
+  src: url(../../font/fa/B-NAZANIN.TTF);
+}
+.swiper-rtl .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 60%;
+
+}
+.swiper-rtl .swiper-button-prev::after,
+.swiper-rtl .swiper-button-next::after {
+  font-weight: 800;
+  font-size: .8rem;
+  color: rgb(107, 107, 107);
+}
+
+.swiper-button-next.swiper-button-disabled , .swiper-button-prev.swiper-button-disabled{
+  opacity: 0;
+}
+
+/* title + svg  */
+.title_header{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  .high_chosen_content__title_images {
+    position: relative;
+    top: 18%;
+  }
+}

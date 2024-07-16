@@ -1,0 +1,45 @@
+.favorite_brands {
+  width:1336px;
+    padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+
+
+  .swiper {
+    width: 1336px;
+    height: fit-content;
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: inherit !important;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+  }
+
+  .swiper-slide img {
+    width: 110px !important;
+    height: 110px !important;
+    object-fit: contain;
+    
+
+  }
+}

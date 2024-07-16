@@ -1,0 +1,112 @@
+.amazing_offers{
+  width: 100%;
+  height: 461px;
+  padding:1rem;
+  margin-bottom: 1rem;
+}
+.finish_amazing_offer_body {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+
+  .finish_amazing_offer_body__title{
+    padding: 1rem;
+  }
+}
+
+.finish_amazing_offer_body__content {
+  .swiper {
+    display: flex;
+    width: 100%;
+    height: 385px;
+    background: rgb(226, 226, 226);
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 310px;
+    font-size: 18px;
+    gap: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: .8rem;
+    background-color: #fff;
+
+    h3 {
+      width: 85%;
+      font-size: 0.8rem;
+      font-weight: 300;
+      text-align: right;
+      text-wrap: wrap;
+    }
+
+    .today_sent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: .4rem;
+
+        p{
+            font-size: .6rem;
+        }
+    }
+  }
+}
+.finish_amazing_offer_body__content .price{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .5rem;
+}
+.finish_amazing_offer_body__title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    height:fit-content;
+    font-weight: 600;
+}
+.finish_amazing_offer_body__content .product_image img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  position: relative;
+  
+}
+.offer_loading_time{
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+  }
+    .offer_loading_time__loader{
+      height: 3px;
+      width: 100%;
+      position: relative;
+      background-color: lightgray;
+      border-radius: .6rem;
+      margin: 0 auto;
+
+      &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: var(--main-red);
+      }
+    }
+
+    .container .amazing_offer_supermarket{
+      padding-inline: 1rem;
+
+    }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container-login">
+      <!-- log in - register  -->
+      <div class="register">
+        <a href="index.html"><img src="./images/header/logo.svg" alt="" /></a>
+        <div class="register__content_form">
+          <form action="#">
+            <h2>ورود | ثبت‌نام</h2>
+
+            <div class="register__title">
+              <p>سلام!</p>
+              <p>لطفا شماره موبایل یا ایمیل خود را وارد کنید</p>
+            </div>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              pattern="\d{11}"
+              required
+            />
+            <label for="phone">این فیلد باید پر شود</label>
+            <button type="submit">ورود</button>
+          </form>
+          <p class="register__privacy">
+            ورود شما به معنای پذیرش<a href="#">شرایط دیجی‌کالا</a>و<a href="#"
+              >قوانین حریم‌خصوصی</a
+            >است
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
